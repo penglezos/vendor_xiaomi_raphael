@@ -135,7 +135,21 @@
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="msmnile"
-            Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
+            Resources="0x43000000, 0x19, 0x40800000, 1500, 0x40800100, 1500, 0x40800200, 1500,
+                       0x40C00000, 0x2, 0x43400000, 0x1F40" />
+
+    <!--Horizontal Scroll boost-->
+        <!-- LLCBW_MIN_FREQ resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ PRIME CORE resource opcode, value -->
+        <!-- SCHEDBOOST resource opcode, value-->
+        <!-- L3_MEMLAT_MIN_FREQ resource opcode, value -->
+
+        <!-- Type="2", Horizontal Scroll boost -->
+        <Config
+            Id="0x00001080" Type="2" Enable="true" Target="msmnile"
+            Resources="0x43000000, 0x19, 0x40800000, 1500, 0x40800100, 1500, 0x40800200, 1500,
                        0x40C00000, 0x2, 0x43400000, 0x1F40" />
 
     <!--Prefling Scroll boost-->
