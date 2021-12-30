@@ -1193,6 +1193,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
+    IFAAService \
     SoterService \
     CneApp \
     IWlanService \
